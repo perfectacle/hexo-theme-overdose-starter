@@ -23,6 +23,6 @@
     "deploy": "npm run gh-pages && npm run master",
     "gh-pages": "git add . && git commit -m \"update on `date +\"%Y/%m/%d %H:%M:%S\"`\" && git push origin gh-pages; exit 0",
     "master": "hexo clean && hexo deploy; exit 0",
-    "font": "git submodule init && git submodule update"
+    "font": "git submodule init && git submodule update && node rm-gitmodules"
   }
 }
