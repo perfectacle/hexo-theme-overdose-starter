@@ -40,6 +40,10 @@ deploy:
   repo: https://github.com/USER_ID/YOUR_REPOSITORY
   branch: master
 ```
+Step 8. If you want to install fonts(noto-sans-kr, spoqa-han-sans-kr, spoqa-han-sans-jp
+```bash
+npm run font
+```
 Step 8. Enjoy your self!
 
 ## Add Portfolio
