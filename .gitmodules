@@ -1,0 +1,6 @@
+[submodule "themes/overdose/source/libs/noto-sans-kr"]
+	path = themes/overdose/source/libs/noto-sans-kr
+	url = https://github.com/hyunseob/noto-sans-kr
+[submodule "themes/overdose/source/libs/spoqa-han-sans"]
+    path = themes/overdose/source/libs/spoqa-han-sans
+    url = https://github.com/perfectacle/spoqa-han-sans
