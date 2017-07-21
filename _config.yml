@@ -78,5 +78,5 @@ theme: overdose
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo:
+  repo: 
   branch: master
