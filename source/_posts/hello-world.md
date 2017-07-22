@@ -35,4 +35,5 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 $ hexo deploy
 ```
 
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+More info: [Deployment](https://hexo.io/docs/deployment.html)  
+[Test Link](/)

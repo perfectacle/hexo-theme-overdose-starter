@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://GITHUB_ID.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -74,9 +74,25 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: overdose
 
+# nofollow
+## Docs: https://github.com/liuzc/hexo-autonofollow
+### Adds nofollow attribute to all external links in your hexo blog posts automatically.
+nofollow:
+  enable: true
+
+# sitemap auto generator
+sitemap:
+  path: sitemap.xml
+
+# rss feed auto generator
+feed:
+  type: atom
+  path: feed.xml
+  limit: 20
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo:
+  repo: https://github.com/GITHUB_ID/GITHUB_ID.github.io
   branch: master
