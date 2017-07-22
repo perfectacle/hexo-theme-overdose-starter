@@ -23,9 +23,11 @@
     "deploy": "npm run gh-pages && npm run master",
     "gh-pages": "git add . && git commit -m \"update on `date +\"%Y/%m/%d %H:%M:%S\"`\" && git push origin gh-pages; exit 0",
     "master": "hexo clean && hexo deploy; exit 0",
-    "font": "npm run noto && npm run spo-kr && npm run spo-jp",
-    "noto": "git clone https://github.com/hyunseob/noto-sans-kr ./themes/overdose/source/libs/noto-sans-kr",
-    "spo-kr": "git clone https://github.com/perfectacle/spoqa-han-sans-kr ./themes/overdose/source/libs/spoqa-han-sans-kr",
-    "spo-jp": "git clone https://github.com/perfectacle/spoqa-han-sans-jp ./themes/overdose/source/libs/spoqa-han-sans-jp"
+    "font": "npm run noto && npm run spo",
+    "font-kr": "git clone https://github.com/hyunseob/noto-sans-kr ./themes/overdose/source/libs/noto-sans-kr && git clone https://github.com/perfectacle/spoqa-han-sans-kr ./themes/overdose/source/libs/spoqa-han-sans-kr && node rm-git",
+    "spo": "git clone https://github.com/perfectacle/spoqa-han-sans-kr ./themes/overdose/source/libs/spoqa-han-sans-kr && git clone https://github.com/perfectacle/spoqa-han-sans-jp ./themes/overdose/source/libs/spoqa-han-sans-jp && node rm-git",
+    "noto-kr": "git clone https://github.com/hyunseob/noto-sans-kr ./themes/overdose/source/libs/noto-sans-kr && node rm-git",
+    "spo-kr": "git clone https://github.com/perfectacle/spoqa-han-sans-kr ./themes/overdose/source/libs/spoqa-han-sans-kr && node rm-git",
+    "spo-jp": "git clone https://github.com/perfectacle/spoqa-han-sans-jp ./themes/overdose/source/libs/spoqa-han-sans-jp && node rm-git"
   }
 }
