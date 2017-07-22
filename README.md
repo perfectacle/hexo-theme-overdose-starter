@@ -40,7 +40,8 @@ deploy:
   repo: https://github.com/USER_ID/YOUR_REPOSITORY
   branch: master
 ```
-Step 8. If you want to install some font, you could choose from the following options.
+Step 8. If you want to install some font, you could choose from the following options.  
+After install, you should set font config in themes/overdose/_config.yml
 * noto-sans-kr
 ```bash
 npm run noto-kr

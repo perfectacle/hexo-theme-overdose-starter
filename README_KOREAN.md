@@ -40,7 +40,8 @@ deploy:
   repo: https://github.com/USER_ID/YOUR_REPOSITORY
   branch: master
 ```
-8 번째. 만약에 폰트를 설치하고 싶다면 아래와 같은 옵션 중에서 선택하시면 됩니다.
+8 번째. 만약에 폰트를 설치하고 싶다면 아래와 같은 옵션 중에서 선택하시면 됩니다.  
+설치를 마치신 후에는 theme/overdose/_config.yml에 있는 폰트 설정을 바꿔주셔야합니다.  
 * noto-sans-kr
 ```bash
 npm run noto-kr
