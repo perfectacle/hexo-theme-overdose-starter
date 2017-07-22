@@ -40,7 +40,32 @@ deploy:
   repo: https://github.com/USER_ID/YOUR_REPOSITORY
   branch: master
 ```
-8 번째. 이제 블로그를 꾸미시면 됩니다!
+8 번째. 만약에 폰트를 설치하고 싶다면 아래와 같은 옵션 중에서 선택하시면 됩니다.
+* noto-sans-kr
+```bash
+npm run noto-kr
+```
+* spoqa-han-sans-kr
+```bash
+npm run spo-kr
+```
+* spoqa-han-sans-jp
+```bash
+npm run spo-jp
+```
+* Korean fonts(noto-sans-kr, spoqa-han-sans-kr)
+```bash
+npm run font-kr
+```
+* Spoqa fonts(spoqa-han-sans-kr, spoqa-han-sans-jp)
+```bash
+npm run spoqa
+```
+* All fonts(noto-sans-kr, spoqa-han-sans-kr, spoqa-han-sans-jp)
+```bash
+npm run font
+```
+9 번째. 이제 블로그를 꾸미시면 됩니다!
 
 ## 포트폴리오 얹기
 ⚠ **포트폴리오는 웹서버나 데이터베이스를 사용하지 않는 정적인 페이지에만 적합합니다. (예) 홈페이지, 웹 어플리케이션).** ⚠

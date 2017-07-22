@@ -40,12 +40,32 @@ deploy:
   repo: https://github.com/USER_ID/YOUR_REPOSITORY
   branch: master
 ```
-Step 8. If you want to install font
+Step 8. If you want to install some font, you could choose from the following options.
 * noto-sans-kr
 ```bash
-npm run noto
+npm run noto-kr
 ```
-Step 8. Enjoy your self!
+* spoqa-han-sans-kr
+```bash
+npm run spo-kr
+```
+* spoqa-han-sans-jp
+```bash
+npm run spo-jp
+```
+* Korean fonts(noto-sans-kr, spoqa-han-sans-kr)
+```bash
+npm run font-kr
+```
+* Spoqa fonts(spoqa-han-sans-kr, spoqa-han-sans-jp)
+```bash
+npm run spoqa
+```
+* All fonts(noto-sans-kr, spoqa-han-sans-kr, spoqa-han-sans-jp)
+```bash
+npm run font
+```
+Step 9. Enjoy your self!
 
 ## Add Portfolio
 ⚠ **Portfolios are only suitable for static pages that do not use a Web server or database. (ex) Web site, Web application).** ⚠
